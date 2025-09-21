@@ -1,36 +1,142 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio Moderne
 
-## Getting Started
+Un portfolio professionnel et responsive créé avec Next.js, Tailwind CSS et Framer Motion.
 
-First, run the development server:
+## 🚀 Fonctionnalités
 
+- **Design moderne** avec glassmorphism et animations fluides
+- **Mode sombre/clair** avec toggle automatique
+- **Responsive design** optimisé pour mobile, tablette et desktop
+- **Animations** avec Framer Motion pour une expérience utilisateur premium
+- **SEO optimisé** avec les bonnes pratiques
+- **Performance** optimisée avec Next.js
+
+## 🛠️ Technologies utilisées
+
+- **Next.js 14** - Framework React avec App Router
+- **TypeScript** - Typage statique pour une meilleure maintenabilité
+- **Tailwind CSS** - Framework CSS utilitaire
+- **Framer Motion** - Bibliothèque d'animations
+- **Lucide React** - Icônes modernes
+- **Next Themes** - Gestion du mode sombre
+
+## 📦 Installation
+
+1. Clonez le projet :
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone <votre-repo>
+cd portfolio
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Installez les dépendances :
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Lancez le serveur de développement :
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Ouvrez [http://localhost:3000](http://localhost:3000) dans votre navigateur.
 
-## Learn More
+## 🎨 Personnalisation
 
-To learn more about Next.js, take a look at the following resources:
+### Modifier les informations personnelles
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. **Nom et titre** : Modifiez le fichier `src/components/Hero.tsx`
+2. **Informations de contact** : Mettez à jour `src/components/Contact.tsx`
+3. **Compétences** : Personnalisez `src/components/Skills.tsx`
+4. **Projets** : Ajoutez vos projets dans `src/components/Projects.tsx`
+5. **À propos** : Éditez le contenu dans `src/components/About.tsx`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Couleurs et thème
 
-## Deploy on Vercel
+Les couleurs sont définies dans `tailwind.config.ts` et `src/app/globals.css`. Vous pouvez :
+- Modifier les couleurs de dégradé
+- Ajuster les effets de glassmorphism
+- Personnaliser les animations
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Images
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Remplacez les placeholders d'images par vos vraies photos :
+- Photo de profil dans `Hero.tsx`
+- Images de projets dans `Projects.tsx`
+
+## 📁 Structure du projet
+
+```
+src/
+├── app/
+│   ├── globals.css          # Styles globaux et utilitaires
+│   ├── layout.tsx           # Layout principal avec SEO
+│   └── page.tsx             # Page d'accueil
+├── components/
+│   ├── About.tsx            # Section À propos
+│   ├── Contact.tsx          # Section Contact avec formulaire
+│   ├── Footer.tsx           # Pied de page
+│   ├── Header.tsx           # Navigation avec menu mobile
+│   ├── Hero.tsx             # Section d'accueil
+│   ├── Projects.tsx         # Section Projets
+│   ├── Skills.tsx           # Section Compétences
+│   └── ThemeProvider.tsx    # Provider pour le mode sombre
+```
+
+## 🎯 Fonctionnalités détaillées
+
+### Mode sombre/clair
+- Toggle automatique avec `next-themes`
+- Persistance des préférences utilisateur
+- Transitions fluides entre les modes
+
+### Animations
+- Animations d'entrée avec Framer Motion
+- Effets de hover sur les éléments interactifs
+- Transitions de page fluides
+- Animations de scroll
+
+### Responsive Design
+- Mobile-first approach
+- Breakpoints optimisés
+- Navigation mobile avec menu hamburger
+- Grilles adaptatives
+
+### Performance
+- Optimisation des images avec Next.js
+- Lazy loading des composants
+- Code splitting automatique
+- SEO optimisé
+
+## 🚀 Déploiement
+
+### Vercel (recommandé)
+1. Connectez votre repo GitHub à Vercel
+2. Déployez automatiquement à chaque push
+
+### Autres plateformes
+```bash
+npm run build
+npm start
+```
+
+## 📝 Notes de développement
+
+- Le projet utilise l'App Router de Next.js 14
+- TypeScript est configuré avec des types stricts
+- Les composants sont optimisés pour la réutilisabilité
+- Le code est bien commenté pour faciliter les modifications
+
+## 🤝 Contribution
+
+N'hésitez pas à contribuer en :
+- Signalant des bugs
+- Proposant de nouvelles fonctionnalités
+- Améliorant la documentation
+
+## 📄 Licence
+
+Ce projet est sous licence MIT. Voir le fichier LICENSE pour plus de détails.
+
+---
+
+Créé avec ❤️ et beaucoup de café ☕

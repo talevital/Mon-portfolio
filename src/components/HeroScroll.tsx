@@ -10,7 +10,7 @@ export function HeroScroll() {
         titleComponent={
           <>
             <h1 className="text-4xl font-semibold text-black dark:text-white">
-              Découvrez l'univers de <br />
+              Découvrez l&apos;univers de <br />
               <span className="text-4xl md:text-[6rem] font-bold mt-1 leading-none gradient-text">
                Vital
               </span>

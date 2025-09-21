@@ -111,7 +111,7 @@ const Contact = () => {
               transition={{ delay: 0.6, duration: 0.6 }}
               className="mt-6 text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto"
             >
-              Prêt à collaborer ? N'hésitez pas à me contacter pour discuter de votre projet
+              Prêt à collaborer ? N&apos;hésitez pas à me contacter pour discuter de votre projet
             </motion.p>
           </div>
 
@@ -276,8 +276,8 @@ const Contact = () => {
                   Temps de réponse
                 </h4>
                 <p className="text-gray-600 dark:text-gray-300 text-sm leading-relaxed">
-                  Je m'efforce de répondre à tous les messages dans les 24 heures. 
-                  Pour les demandes urgentes, n'hésitez pas à me contacter directement par téléphone.
+                  Je m&apos;efforce de répondre à tous les messages dans les 24 heures. 
+                  Pour les demandes urgentes, n&apos;hésitez pas à me contacter directement par téléphone.
                 </p>
               </motion.div>
             </motion.div>

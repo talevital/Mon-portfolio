@@ -51,14 +51,14 @@ const About = () => {
               transition={{ delay: 0.6, duration: 0.8 }}
             >
               <h3 className="text-2xl font-semibold mb-6 text-gray-800 dark:text-gray-200">
-                Passionné par le développement et l'innovation
+                Passionné par le développement et l&apos;innovation
               </h3>
               
               <div className="space-y-4 text-gray-600 dark:text-gray-300 leading-relaxed">
                 <p>
-                  Développeur full-stack avec plus de 3 ans d'expérience dans la création 
-                  d'applications web modernes et performantes. Je me spécialise dans 
-                  l'écosystème JavaScript/TypeScript avec React, Next.js, Node.js et Django.
+                  Développeur full-stack avec plus de 3 ans d&apos;expérience dans la création 
+                  d&apos;applications web modernes et performantes. Je me spécialise dans 
+                  l&apos;écosystème JavaScript/TypeScript avec React, Next.js, Node.js et Django.
                 </p>
                 
                 <p>
@@ -69,15 +69,15 @@ const About = () => {
                 </p>
                 
                 <p>
-                  Mon approche se concentre sur l'écriture de code propre, maintenable 
-                  et sur l'optimisation des performances. Je suis constamment en veille 
+                  Mon approche se concentre sur l&apos;écriture de code propre, maintenable 
+                  et sur l&apos;optimisation des performances. Je suis constamment en veille 
                   technologique pour intégrer les dernières innovations dans mes projets.
                 </p>
                 
                 <p>
-                  En plus du développement, j'ai une passion pour l'UI/UX design et 
-                  l'accessibilité web. Je crois fermement que la technologie doit être 
-                  au service de l'utilisateur final.
+                  En plus du développement, j&apos;ai une passion pour l&apos;UI/UX design et 
+                  l&apos;accessibilité web. Je crois fermement que la technologie doit être 
+                  au service de l&apos;utilisateur final.
                 </p>
               </div>
 
@@ -124,7 +124,7 @@ const About = () => {
               </h4>
               <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
                 Créer des solutions technologiques qui résolvent de vrais problèmes 
-                et améliorent la vie des utilisateurs. Je m'engage à livrer des 
+                et améliorent la vie des utilisateurs. Je m&apos;engage à livrer des 
                 produits de qualité avec une attention particulière aux détails.
               </p>
             </div>
@@ -135,7 +135,7 @@ const About = () => {
               </h4>
               <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
                 Code propre, collaboration efficace, apprentissage continu et 
-                innovation responsable. Je crois en l'importance du travail d'équipe 
+                innovation responsable. Je crois en l&apos;importance du travail d&apos;équipe 
                 et de la transmission de connaissances.
               </p>
             </div>

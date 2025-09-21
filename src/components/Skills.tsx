@@ -238,7 +238,7 @@ const Skills = () => {
                 </span>
               </h3>
               <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-                Des outils et techniques complémentaires pour des projets d'exception
+                Des outils et techniques complémentaires pour des projets d&apos;exception
               </p>
             </motion.div>
             

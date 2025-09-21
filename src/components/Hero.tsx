@@ -97,7 +97,7 @@ const Hero = () => {
             className="text-lg md:text-xl text-gray-700 dark:text-gray-300 mb-12 max-w-2xl mx-auto leading-relaxed"
           >
             Développeur passionné spécialisé dans les technologies modernes.
-            Créateur d'expériences numériques innovantes et performantes.
+            Créateur d&apos;expériences numériques innovantes et performantes.
           </motion.p>
 
           {/* CTA Buttons */}

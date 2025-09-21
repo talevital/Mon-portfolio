@@ -64,7 +64,7 @@ const About = () => {
                 <p>
                   Actuellement en poste chez <a href="https://metric-decision.com/" target="_blank" rel="noopener noreferrer" className="text-indigo-600 dark:text-indigo-400  hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors">Metric&decision</a>, 
                   je travaille quotidiennement avec les données pour créer des solutions analytiques 
-                  et des tableaux de bord interactifs. Mon rôle m'amène à manipuler de gros volumes 
+                  et des tableaux de bord interactifs. Mon rôle m&apos;amène à manipuler de gros volumes 
                   de données et à développer des interfaces permettant leur visualisation et leur analyse.
                 </p>
                 
